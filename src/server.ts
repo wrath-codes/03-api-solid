@@ -7,5 +7,5 @@ app
     host: '0.0.0.0',
   })
   .then(() => {
-    console.log(`👾Server is listening on port ${env.PORT}`)
+    console.log(`👾 Server is listening on port ${env.PORT}!`)
   })
