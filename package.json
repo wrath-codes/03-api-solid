@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node build/server.js",
     "start:dev": "tsx watch src/server.ts",
-    "build": "tsup src  --out-dir build"
+    "build": "tsup src  --out-dir build",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "keywords": [],
   "author": "",
@@ -16,13 +18,16 @@
     "@types/bcryptjs": "2.4.2",
     "@types/node": "20.0.0",
     "eslint": "8.40.0",
+    "prima": "0.0.1",
     "prisma": "4.13.0",
     "tsup": "6.7.0",
     "tsx": "3.12.7",
-    "typescript": "5.0.4"
+    "typescript": "5.0.4",
+    "vite-tsconfig-paths": "4.2.0",
+    "vitest": "0.31.0"
   },
   "dependencies": {
-    "@prisma/client": "4.13.0",
+    "@prisma/client": "4.14.0",
     "bcryptjs": "2.4.3",
     "dotenv": "16.0.3",
     "fastify": "4.17.0",
