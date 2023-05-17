@@ -5,7 +5,7 @@ import { FetchNearbyGymsUseCase } from './fetch-nearby-gyms'
 let gymsRepository: InMemoryGymsRepository
 let sut: FetchNearbyGymsUseCase
 
-describe('Check-in Use Case', () => {
+describe('Fetch Nearby Gyms Use Case', () => {
   beforeEach(async () => {
     gymsRepository = new InMemoryGymsRepository()
     sut = new FetchNearbyGymsUseCase(gymsRepository)
