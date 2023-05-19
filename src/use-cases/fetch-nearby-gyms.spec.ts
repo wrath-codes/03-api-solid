@@ -12,7 +12,7 @@ describe('Fetch Nearby Gyms Use Case', () => {
   })
 
   // Test Search for gyms
-  it('should be able to fetch nearby gyms', async () => {
+  it('should be able to list nearby gyms', async () => {
     // create fake check-ins
     await gymsRepository.create({
       title: 'Near Gym',
